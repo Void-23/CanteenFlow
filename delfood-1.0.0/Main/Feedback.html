@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\stylefeed.css">
+    <title>Feedback Form</title>
+    <style>
+    body {
+        margin: 0;
+        background-image: url(./images/feedback.jpg);
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <form action="test.php" method="post">
+                <h1>Feedback Form</h1>
+
+                <label for="username"><em><b>Name:</b></em></label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="phone"><em><b>Phone Number:</b></em></label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required>
+
+                <label for="subject"><em><b>Subject:</b></em></label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="feedback"><em><b>Feedback:</b></em></label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
