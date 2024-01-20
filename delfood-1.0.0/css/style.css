@@ -797,4 +797,8 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.thali-box {
+  height: 600px;
+}
 /*# sourceMappingURL=style.css.map */

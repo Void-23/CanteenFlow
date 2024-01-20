@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #fcfafa, #0e4b9b);
+}
+
+.menu-card {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffda21;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section {
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #2c2acd;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color:white;
+}
